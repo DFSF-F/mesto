@@ -1,7 +1,7 @@
-# Яндекс Практикум: проект "Mesto"
+# Yandex Practicum: project " Mesto"
 
-Технологии: HTML + CSS + JS + БЭМ
+Технологии: HTML + CSS + JS + webpack
 
 Описание: Данный проект является альбомом фотокарточек из различных уголков мира.
 
-* [Cайт](https://dfsf-f.github.io/mesto/)
+Сайт: 
