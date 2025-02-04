@@ -5,18 +5,19 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
-    "dev": "webpack serve"
+    "dev": "webpack serve",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/B10nicle/mesto.git"
+    "url": "git+https://github.com/DFSF-F/mesto.git"
   },
   "author": "Oleg Khilko",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/B10nicle/mesto/issues"
+    "url": "https://github.com/DFSF-F/mesto/issues"
   },
-  "homepage": "https://b10nicle.github.io/mesto/",
+  "homepage": "https://DFSF-F.github.io/mesto",
   "devDependencies": {
     "@babel/core": "^7.20.12",
     "@babel/preset-env": "^7.20.2",
@@ -26,12 +27,13 @@
     "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.7.3",
     "cssnano": "^5.1.14",
+    "gh-pages": "^6.3.0",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.7.2",
     "postcss-loader": "^7.0.2",
-    "webpack": "^5.75.0",
-    "webpack-cli": "^5.0.1",
-    "webpack-dev-server": "^4.11.1"
+    "webpack": "^5.97.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.2"
   },
   "dependencies": {
     "core-js": "^3.27.2"
